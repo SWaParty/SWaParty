@@ -1,0 +1,32 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+spring:
+  application:
+    name: swaparty-rmstate
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/swaparty_room}
+    username: ${SPRING_DATASOURCE_USERNAME:swaparty}
+    password: ${SPRING_DATASOURCE_PASSWORD:swaparty}
+  flyway:
+    enabled: false
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema.sql
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+swaparty:
+  internal-api-token: ${SWAPARTY_INTERNAL_API_TOKEN:}
+  cors-allowed-origins: ${APP_CORS_ALLOWED_ORIGINS:http://localhost:5173}
+  realtime:
+    publish-url: ${SWAPARTY_REALTIME_PUBLISH_URL:}
+    publish-token: ${SWAPARTY_REALTIME_PUBLISH_TOKEN:}
+  room-lifecycle:
+    host-disconnect-grace-seconds: ${SWAPARTY_HOST_DISCONNECT_GRACE_SECONDS:600}
+    cleanup-fixed-delay-ms: ${SWAPARTY_ROOM_CLEANUP_FIXED_DELAY_MS:60000}

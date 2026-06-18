@@ -1,0 +1,15 @@
+name = "swaparty"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "CHANGE_ME_D1_DATABASE_NAME"
+database_id = "CHANGE_ME_D1_DATABASE_ID"
+
+[[r2_buckets]]
+binding = "AVATARS"
+bucket_name = "CHANGE_ME_AVATARS_BUCKET"
+
+[[r2_buckets]]
+binding = "MEDIA"
+bucket_name = "CHANGE_ME_MEDIA_BUCKET"

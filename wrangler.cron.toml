@@ -1,0 +1,11 @@
+name = "swaparty-invites-expire-cron"
+main = "workers/invites-expire-cron.js"
+compatibility_date = "2026-04-15"
+workers_dev = false
+preview_urls = false
+
+[triggers]
+crons = ["* * * * *"]
+
+[vars]
+CRON_TARGET_URL = "https://CHANGE_ME_DOMAIN/api/cron/invites-expire"

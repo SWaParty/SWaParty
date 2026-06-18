@@ -1,0 +1,4 @@
+{$RMSTATE_DOMAIN:rmstate.example.com} {
+  encode gzip
+  reverse_proxy rmstate:8080
+}
