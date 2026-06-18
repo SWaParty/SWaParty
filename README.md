@@ -326,4 +326,5 @@ Technical documents are grouped under `docs/`:
 - Do not commit real `.env` files.
 - Do not commit Cloudflare account IDs, D1 IDs, R2 access keys, OAuth secrets, Resend keys, realtime tokens, or VPS IPs.
 - Keep production domains and resource names in deployment secrets or deployment config, not in source code.
-- This public tree uses `CHANGE_ME_*` and `example.com` placeholders by design.
+- This public tree uses `CHANGE_ME_*` and `example.com` placeholders by design
+
