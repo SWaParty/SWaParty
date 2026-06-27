@@ -6,7 +6,7 @@ SWaParty is a multi-user watch party web application. It combines account login,
 
 This repository is a sanitized public source tree. Real secrets, production resource IDs, VPS IPs, and deployment-specific `.env` files are intentionally excluded.
 
----
+--- 
 
 ## 📚 Contents
 
