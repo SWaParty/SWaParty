@@ -1,5 +1,5 @@
 # SWaParty
-
+3
 🎬 Online demo: https://swaparty.org
 
 SWaParty is a multi-user watch party web application. It combines account login, contact and invite workflows, private media upload, realtime presence, synchronized room playback, chat, danmaku-style comments, and a separate Spring room-state service.
@@ -10,18 +10,20 @@ This repository is a sanitized public source tree. Real secrets, production reso
 
 ## 📚 Contents
 
-- [🚀 Quick Start](#quick-start)
-- [✨ Features](#features)
-- [🏗️ Architecture](#architecture)
-- [🗂️ Software Structure](#software-structure)
-- [🧑‍💻 Local Development](#local-development)
-- [🖥️ VPS Requirements](#vps-requirements)
-- [🔐 Configuration](#configuration)
-- [🗄️ Database](#database)
-- [☕ rmstate Backend](#rmstate-backend)
-- [🎞️ Media Transcoder](#media-transcoder)
-- [📖 Documentation](#documentation)
-- [🛡️ Security Notes](#security-notes)
+- [SWaParty](#swaparty)
+  - [📚 Contents](#-contents)
+  - [🚀 Quick Start](#-quick-start)
+  - [✨ Features](#-features)
+  - [🏗️ Architecture](#️-architecture)
+  - [🗂️ Software Structure](#️-software-structure)
+  - [🧑‍💻 Local Development](#-local-development)
+  - [🖥️ VPS Requirements](#️-vps-requirements)
+  - [🔐 Configuration](#-configuration)
+  - [🗄️ Database](#️-database)
+  - [☕ rmstate Backend](#-rmstate-backend)
+  - [🎞️ Media Transcoder](#️-media-transcoder)
+  - [📖 Documentation](#-documentation)
+  - [🛡️ Security Notes](#️-security-notes)
 
 ---
 
